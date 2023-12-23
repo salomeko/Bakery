@@ -10,8 +10,17 @@
     font-family: osi;
     src: url(font/Oswald-VariableFont_wght.ttf);
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
 .ultra{
     font-family: ultra;
+    font-weight: 400;
 }
 .sans{
     font-family: sans;
@@ -71,50 +80,196 @@ background: #171B1B;
     font-size: 20px;
     margin-top: -57px;
 }
-.svg1{
-    position: absolute;
-    left: 997px;
-}
-.svg2{
-    position: absolute;
-    top: 323px;
-    left: 1850px;
-}
+
 .for-side-text img{
     margin-top: 145px;
     margin-left: 50%;
 }
-.svg3{
-    position: absolute;
-    top: 760px;
-    left: 935px;
+.second{
+    width: 100%;
+    height: auto;
+    background-color: #F5D3AB;
+    z-index: inherit;
 }
-.svg4{
+.for-text{
     position: absolute;
-    top: 165px;
+    margin-left: 935px;
+    top: 1005px;
 }
-.svg5{
+.about{
+    font-size: 16px;
+}
+.moments{
+    font-size: 56px;
+    margin-top: 16px;
+}
+.arrow-flex{
+    display: flex;
+    flex-direction: column;
+    width: 48px;
+height: 48px;
+gap: 10px;
+}
+.view{
+    margin-left: 102px;
+    margin-top: -53px;
+}
+.after-view{
+    color: rgba(51, 51, 51, 0.50);
+    font-size: 16px;
+    margin-left: 102px;
+    line-height: 32px;
+}
+.flex-a{
+    margin-top: 35px;
+}
+.flex-a a{
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #171B1B;
+    margin-left: 102px;
+    margin-top: 16px;
+}
+.our-features{
+    text-align: center;
+    margin-top: 222px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.love{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 56px;
+}
+.flex-containers3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.three-divs{
+    width: 400px;
+    height: 384px;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+.three-divs img{
+    margin-top: 56px;
+    margin-left: 64px;
+}
+.heading{
+    margin-left: 64px;
+    font-size: 40px;
+}
+.divs-p{
+    margin-left: 64px;
+    color: rgba(51, 51, 51, 0.50);
+    font-size: 16px;
+}
+.three-divs:hover{
+    margin-top: -18px;
+    margin-bottom: -18px;
+    width: 410px;
+    height: 420px;
+    background-color: #9EAD8D;
+    transition-duration: 0.7s;
+    
+}
+.for-vid{
+    background: #171B1B;
+    height: 488px;
+    margin-top: 192px;
+}
+.vids-text{
+    padding-top: 138px;    
+    margin-left: 1130px;
+    color: #FFF;
+}
+.our-vid{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.vids-heading{
+    font-size: 56px;
+    margin-top: 18px;
+}
+.for-price{
+    margin-top: 105px;
+    margin-left: 135px;
+}
+.headingp{
+    font-size: 16px;
+    line-height: 32px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.for-price h3{
+    font-size: 56px;
+    line-height: 64px;
+    margin-top: 18px;
+    font-weight: 400;
+}
+.first-article{
+    position: relative;
+}
+.first-article img{
+    position: relative;
+    width: 770px;
+    height: 448px;
+}
+.first-article-text{
     position: absolute;
-    top: 169px;
-    left: 1290px;
+    margin-top: -273px;
+    margin-left: 46px;
 }
-.svg6 {
+.firstp{
+    margin-top: 185px;
+    font-size: 16px;
+    color: white ;
+}
+.first-article-text h3{
+    font-size: 40px;
+    margin-top: -18px;
+    color: #FFF;
+    font-weight: 400;
+}
+.secondp{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: -28px;
+}
+.price{
     position: absolute;
-    top: 285px;
-    left: 1017px;
+    margin-top: -80px;
+    margin-left: 638px;
+    font-size: 40px;
+    color: #FFF;
 }
-.svg7{
-    position: absolute;
-    top: 60px;
-    left: 1079px;
-}
-.svg8{
-    position: absolute;
-    top: 288px;
-    left: 1180px;
-}
-.man{
-    position: absolute;
-    top: 90px;
-    left: 280px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

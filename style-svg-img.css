@@ -1,0 +1,88 @@
+.svg1{
+    position: absolute;
+    left: 997px;
+}
+.svg2{
+    position: absolute;
+    top: 323px;
+    left: 1850px;
+}
+.svg3{
+    position: absolute;
+    top: 760px;
+    left: 935px;
+}
+.svg4{
+    position: absolute;
+    top: 165px;
+}
+.svg5{
+    position: absolute;
+    top: 169px;
+    left: 1290px;
+}
+.svg6 {
+    position: absolute;
+    top: 285px;
+    left: 1017px;
+}
+.svg7{
+    position: absolute;
+    top: 60px;
+    left: 1079px;
+}
+.svg8{
+    position: absolute;
+    top: 288px;
+    left: 1180px;
+}
+
+.man{
+    position: absolute;
+    top: 90px;
+    left: 280px;
+}
+.svg9{
+    margin-top: 280px;
+    margin-left: 120px;
+}
+.svg10{
+position: absolute;
+margin-top: 245px;
+left: 550px;
+}
+.img1{
+   position: absolute; 
+   margin-top: 150px;
+   left: 140px;
+   width: 370px;
+    height: 304px;
+}
+.img2{
+    position: absolute;
+    margin-top: 384px;
+    width: 400px;
+height: 400px;
+flex-shrink: 0;
+left: 205px;
+}
+.svg11{
+    position: absolute;
+    margin-top: 0;
+    left: 1699px;
+}
+.svg12{
+    position: absolute;
+    margin-top: 96.5px;
+    left: 216px;
+}
+.svg13{
+    position: absolute;
+    margin-top: 160px;
+    left: 290px;
+}
+.svg14{
+    position: absolute;
+    margin-top: 434px;
+    left: 50%;
+}
